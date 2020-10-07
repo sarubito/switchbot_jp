@@ -101,9 +101,18 @@ def main():
     driver.connect()
     print('Connected!')
 
-    driver.run_command('press')
-    print('Command execution successful')
+    j = 1
 
+    while j == 1:
+        print('press 1 or 0')
+        j = int(input())
+        if j == 1: #switchbot起動条件
+            driver.run_command('press')
+            print('Command execution successful')
+        elif j == 0:
+            break
+        else: 
+           continue 
 
 if __name__ == '__main__':
     main()
