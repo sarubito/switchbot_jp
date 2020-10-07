@@ -95,7 +95,7 @@ class DevScanner(DefaultDelegate):
         pass
 
     def register_cb( self, fn ):
-        self.cb=fn;
+        self.cb=fn
         return
 
     def close(self):
@@ -142,6 +142,7 @@ def main():
 	dev = sys.argv[1]
         act = sys.argv[2] if len(sys.argv) < 4  else  ('Turn ' + sys.argv[3] )
         trigger_device([dev,act])
+        #trigger_device('E0:F6:18:B6:3F:9A')
 
     elif len(sys.argv) == 1:
     	#Start scanning...
@@ -166,6 +167,7 @@ def main():
     	#If the SwitchBot address is known you can run this command directly without scanning
 
     	trigger_device(bluetooth_adr)
+    	#trigger_device('E0:F6:18:B6:3F:9A')
     else :
 	print 'wrong cmd.'
     	print('Usage: "sudo python switchbot.py [mac_addr  cmd]" or "sudo python switchbot.py"')
