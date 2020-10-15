@@ -12,11 +12,10 @@ The python-host distribution is supported and tested on Python 2.7.
 用意するもの:
   -  raspberry pi2かraspberry pi3のどちらかを用意(pi3に関してはデフォルトでBluetoothがある)
   -  Switchbot
-  -  An SD Card with a fresh install of Raspbian (tested against the latest build [2017-01-11 Jessie with Pixel](https://www.raspberrypi.org/downloads/raspbian/)).
+  -  An SD Card with a fresh install of Raspbian
 
-インストール:
-  -  Boot your fresh Pi and open a command prompt.
-  -  Install the require library.
+インストール:新規インストールされているRaspbian.
+  -  必要なライブラリをインストール.
 ```sh
 sudo apt-get update
 sudo apt-get install python-pexpect
