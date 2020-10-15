@@ -7,15 +7,14 @@ This project aims to provide a super light-weight solution to control your Switc
 
 The python-host distribution is supported and tested on Python 2.7.
 
-# How to Install?
+# インストール方法
 
-On Raspberry Pi.
-You will need:
-  -  A Raspberry Pi 3 or A Raspberry Pi 2 plugged with a [Bluetooth dongle](https://www.amazon.com/Plugable-Bluetooth-Adapter-Raspberry-Compatible/dp/B009ZIILLI/ref=sr_1_3?s=electronics&ie=UTF8&qid=1487679848&sr=1-3&keywords=bluetooth+dongle).
-  -  A SwitchBot.
+用意するもの:
+  -  raspberry pi2かraspberry pi3のどちらかを用意(pi3に関してはデフォルトでBluetoothがある)
+  -  Switchbot
   -  An SD Card with a fresh install of Raspbian (tested against the latest build [2017-01-11 Jessie with Pixel](https://www.raspberrypi.org/downloads/raspbian/)).
 
-Installation:
+インストール:
   -  Boot your fresh Pi and open a command prompt.
   -  Install the require library.
 ```sh
