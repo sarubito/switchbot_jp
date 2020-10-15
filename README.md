@@ -75,6 +75,7 @@ cd gattlib-0.20150805/
 sed -ie 's/boost_python-py34/boost_python-py35/' setup.py
 pip3 install .
 ```
+gattlibのインストールでも苦戦する場合
 
 Type `python3 switchbot_py3.py --help` for usage tips.
 
