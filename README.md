@@ -23,7 +23,7 @@ sudo apt-get install libusb-dev libdbus-1-dev libglib2.0-dev
 sudo apt-get install libudev-dev libical-dev libreadline-dev
 sudo pip install bluepy
 ```
-  -  Clone this repo to the Pi.
+  -  以下のリポジトリをラズパイにインストール.
 ```sh
 git clone https://github.com/OpenWonderLabs/python-host.git
 ```
